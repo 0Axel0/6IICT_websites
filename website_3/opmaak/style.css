@@ -1,11 +1,14 @@
 footer, header {
 	text-align: center;
-	background-color: white;
+	background-color: rgb(255, 255, 255);
 	}
+
 
 div#inhoud {
 	margin: auto;
 	width: 1000px;
+	background-color: rgb(197, 66, 66);
+	padding: 10px;
 	}
 
 div#land {
@@ -36,3 +39,14 @@ img.vlag {
 	border-style: solid;
 	border-color: black; 
 	}
+img.foto {
+	width: 450px;
+	height: 300px;
+	}
+body {
+	background-image: url("../afbeeldingen/zonsondergang.jpg");
+	background-size: contain;
+	background-attachment: fixed;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	}
+	

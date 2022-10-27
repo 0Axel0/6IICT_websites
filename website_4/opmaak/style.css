@@ -89,3 +89,13 @@ footer p {
 	font-weight: bold;
 	font-size: 12px;
 	}
+
+img.pijl{
+	float: right;
+	}
+#footer-tekst{
+		color: white;
+		font-style: bold;
+		text-decoration: underline;
+	}
+	

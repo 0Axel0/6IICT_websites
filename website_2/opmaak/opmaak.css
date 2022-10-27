@@ -1,5 +1,9 @@
+*{
+	font-family: Verdana, arial, sans-serif;
+}
+
 body {
-	background-color: grey;
+	background-color: rgb(30, 30, 30);
 	}
 
 header, aside, footer, article {
@@ -7,25 +11,27 @@ header, aside, footer, article {
 	}
 
 header, footer {
-	background-color: white;
+	background-color: rgb(255, 0, 0);
 	padding: 5px;
 	}
 
 header {
-	background-image: url("../afbeeldingen/hoofding.jpg");
+	background-image: url("../afbeeldingen/website.jpg.jpg");
 	margin-top: -8px;
 	text-align: center;
 	padding-top: 80px;
-	color: white;
+	color: rgb(0, 255, 255);
 	}
 	
 h1 {
 	font-size: 90px;
+	font-family: 'Times New Roman';
 	}
 aside {
 	float: right;
 	width: 20%;
-	background-color: white;
+	background-color: rgb(255, 255, 255);
+	color: rgba(128, 128, 128, 0.829);
 	padding: 20px;
 	margin-top: -30px;
 	margin-right: 10px;
@@ -38,7 +44,8 @@ article {
 	margin: 10px;
 	margin-left: 0px;
 	padding: 10px;
-	background-color: #DDDDDD;	/*lichtgrijs*/
+	background-color: #ffffff;	/*lichtgrijs*/
+	color: rgba(0, 0, 0, 0.995);
 	}
 	
 footer {
@@ -50,4 +57,13 @@ p {
 	font-style: normal;
 	font-weight: 200;
 	margin: 10px;
+}
+p.inleiding {
+    font-style: italic;
+    font-weight: bold;
+	color: rgb(255, 0, 0);
+    }
+p.citaat{
+	font-style: italic;
+	margin: 40px
 }
